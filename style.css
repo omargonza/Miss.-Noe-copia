@@ -1,0 +1,1037 @@
+@media screen and (min-width:500px){
+
+
+input{
+    display: none;
+}
+label{
+    display: none;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+.form{
+    width: 1500px;
+    display: grid;
+    grid-template-columns: 850px 100px;
+    grid-template-areas: "form container form container";
+    grid-template-rows: 450px 100px;
+    align-items: end;
+    justify-items: end;
+    
+
+}
+
+
+
+
+.form_title{
+    font-family: helvetica;
+
+    color: rgb(156, 150, 150)                   ;
+}
+  
+
+body{
+    
+     background-color:rgb(156, 150, 150);
+     background-image: url(img/logo-Pastel-miss-noe.png);
+          
+    
+}
+
+
+
+a:hover{
+    background-color: rgb(220, 151, 159);
+    color: rgb(156, 150, 150);
+    opacity: 90%;
+    cursor: pointer;
+    border-radius: 48px;
+
+}
+
+
+.cursos{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+
+p{
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+    
+    
+
+
+
+ul{
+    display: flex;
+    outline: 4px;
+    list-style: none;
+    font-family: sans-serif;
+    line-height: 40px;
+    padding: 0;
+    margin: 0;
+    background-color:  rgb(156, 150, 150);
+}
+
+
+li{
+    float: left;
+    list-style: none; 
+    padding: 10px 10px 10px 10px;
+    margin: 4px 4px 4px 4px;    
+    
+    
+}
+
+a{
+    text-decoration: none;
+    font-family:  sans-serif;
+    font-size: 40px;
+    background-color: rgb(156, 150, 150);
+    color: black;
+    
+}
+
+.contenedor-galeria{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 8%;
+    
+}
+.contenedor-vid-clases{
+    display: flex;
+    
+    text-transform: uppercase;
+    height: 100px;
+    width: 100px;
+    
+
+}
+
+
+
+
+
+footer{
+    background-color: rgb(156, 150, 150)       ;
+    width: 100%;
+    height: 52px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+
+
+
+/*estilos Cursos Reg */
+.body-cursos-reg{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows:auto auto auto auto auto auto  ;
+    width: 100%;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.header-cursos-reg{
+    grid-column: 1/6;
+    padding-top: 50px;
+}
+.nav-cursos-reg{
+    grid-column: 1/6;
+    padding-bottom: 20px;
+}
+.main-cursos-reg{
+    grid-column: 1/4;
+    padding-top: 150px;
+    margin: 0px;
+    padding-left: 10px;
+}
+
+
+.aside-cursos-reg{
+    grid-column: 5/6;
+
+}
+.footer-cursos-reg{
+    grid-column: 1/6;
+    padding-top: 250px;
+    height: 20px;
+    width: 1100;
+}
+
+
+
+.h1-cursos-reg{
+    height: 65px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 4rem;
+    color: rgb(34, 12, 12);
+}
+
+
+    
+
+.header-cursos-reg{
+    margin-bottom: 50px;
+    padding-top: 0px;
+    text-align: start;
+
+}
+
+.nav-cursos-reg{
+    height: 6px;
+    font-size: 2rem;
+}
+
+.main-cursos-reg{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    border: 15px rgb(227, 65, 84) solid;
+}
+
+
+.footer-cursos-reg{
+    width:100% ;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    margin: auto auto auto auto;
+    padding:auto auto auto auto;
+    padding-left: 0px;
+    
+}
+/* estilos clASES A DEMANDA*/
+.body-clases{
+    display: grid;
+    grid-template-rows: 10% 10% 40% 20% 20%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    column-gap: 50px;
+    row-gap: 50px;
+    width: 1200px;
+}
+
+.contenedor-clases{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 300px;
+
+}
+
+.header-clases{
+    grid-column: 1/6;
+    padding-top: 0px;
+    margin-bottom: 100px;
+    padding-bottom: 200px;
+}
+.nav-clases{
+    grid-column: 1/6;
+}
+.main-clases{
+    grid-column: 1/6;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.clases-demand-logo{
+    border: 5px rgb(227, 65, 84)solid;
+    border-radius: 20%;
+    padding-left: 100px;
+    
+}
+
+    
+.footer-clases{
+     grid-column: 1/9;
+     width: 100%;
+     height: 32px;
+     display: flex;
+     align-items: center;
+     margin: auto auto auto auto;
+     padding:auto auto auto auto;
+     padding-left: 0px;
+     padding-top: 10px;
+     padding-bottom: 30px;
+
+}
+
+/*estilos de la galeria*/
+
+.contenedor-galeria{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+    
+}
+
+    
+    
+
+.footer-galeria{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+
+.fondomissnoe{
+    width: 800px;
+    height: 700px;
+    display: flex;
+    flex-direction: row 200px;
+    
+}
+
+    
+    
+
+
+.fotonoe{
+    float: left;
+    width: 500px;
+    padding-top: 100px;
+}
+
+
+
+
+
+/*estilos inicio*/
+
+
+
+
+.body-inicio{ 
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;   
+    width: 100%;   
+}
+.header-inicio{
+    grid-column: 1/4;
+}
+.article-inicio{
+     grid-column: 1/4;
+}
+.footer-inicio{
+    grid-column: 1/4;
+}
+
+
+.nav-inicio{
+    height: 4px;
+    font-size: 2rem;
+}
+
+    
+    
+
+
+.h1-inicio{
+        height: 65px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-size: 4rem;
+        color: rgb(26, 8, 8);
+        display: flex;
+}
+
+.logo-inicio{
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 5%;
+    width: 100%;
+    padding-bottom: 5%;
+    
+}
+
+.titulo-welcome{
+    font-size: 4rem;
+    
+}
+
+.logo-titulo-inicio{
+
+    grid-column: 3/5;
+    
+
+}
+
+
+.article-inicio{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    height: 100%;
+    row-gap: 10px;
+    padding-top: 30px;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+
+.logo-inicio{
+    grid-column: 2/3; 
+    width: 550px;
+    height: 550px;
+    padding-left: 93px;
+}
+      
+
+
+.h1-inicio{
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+       
+.header-inicio{
+    display: inline;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+
+.footer-inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 200px;
+    margin-bottom: 75px;
+    height: 200px;
+       
+}
+footer{
+    background-color: rgb(156, 150, 150);
+    
+}
+
+/* estilos contaco*/
+
+.body-contact{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
+    
+}
+
+.header-contact{
+    grid-column: 1/6;
+}
+.nav-contact{
+    grid-column: 1/6;
+}
+
+.form-contact{
+    grid-column: 2/5;
+    padding-bottom: 200px;
+    width: 600px;
+    height: 500px;
+    padding-top: 100px;
+}
+.form-container{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(227, 65, 84);
+    padding-top: 100px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 50px;
+}
+#input-contact{
+    display: block;
+    font-size: 2rem;
+    font-family: sans-serif;
+    border: 5PX solid rgb(227, 65, 84);
+    background-color: rgb(200, 152, 152);
+    border:2px solid black;
+}
+.label-contact{
+    display: block;
+    font-size: 2rem;
+    font-family: sans-serif;
+    border: 5PX solid rgb(227, 65, 84);
+    background: rgb(200, 152, 152)
+    
+
+}
+textarea{
+    font-size: 2rem;
+    font-family: sans-serif;
+    border: 5PX solid rgb(227, 65, 84);
+    background-color: rgb(200, 152, 152);
+    border:2px solid black;
+}
+.form-title{
+    font-size: 2rem;
+    font-family: sans-serif;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    border-bottom: 2px;
+
+}
+
+
+.footer-contact{
+    grid-column: 1/6;
+}
+
+.header-contact{
+    background-color: rgb(156, 150, 150);
+}
+
+.h1-contact{
+    height: 65px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 4rem;
+    color: rgb(34, 12, 12);
+}
+            
+
+
+/*estilos de sobre Noe Moni*/ 
+
+.body-sobre{
+    display: grid;
+    width: 100%;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: auto auto auto;
+    column-gap: 25px;
+    row-gap: 15%;
+}
+
+.body-sobre{
+    background-color: rgb(156, 150, 150);
+}
+
+a{
+    text-decoration: none;
+    font-family:  sans-serif;
+    font-size: 40px;
+    background-color: rgb(156, 150, 150);
+    color: black;
+    }
+
+.header-sobre{
+    grid-column: 1/5;
+    margin-bottom: 50px;
+    text-align: start;
+    
+
+
+
+    
+}
+.h1-sobre{
+    height: 65px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 4rem;
+    color: rgb(20, 6, 6);
+}
+
+.nav-sobre{
+    height: 4px;
+    font-size: 0.2rem;
+    
+}
+
+.sobremissnoe{
+    grid-column: 2/4;
+    width: 60%;
+    height: 60%;
+    padding-top: 50px;
+    
+      
+}
+
+.titulo-sobre{
+    font-size: 4rem;
+}
+
+.contenedor-sobre{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    height: 100%;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding-top: 30px;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+
+.foto-sobre{
+    width: 550px;
+    height: 650px;
+    padding-left: 10px;
+    
+    
+}
+
+.foto-sobre:hover{
+    filter: saturate(200%);
+    color: indianred;
+    
+}
+.aside-sobre:hover{
+   background-color:indianred;
+   border-radius: 30px;
+   color: black;
+   opacity: 60%;
+   
+}
+.aside-sobre{
+    grid-column: 3/5;
+    display: flex;
+    font-size: 3rem;
+    text-transform: initial;
+    text-align: justify;
+    
+    }
+
+.footer-sobre{
+    grid-column: 1/5;
+    padding-right: 50px;
+    font-size: 2rem;
+
+}
+
+
+.footer-sobre{
+    width:100% ;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    margin: auto auto auto auto;
+    padding:auto auto auto auto;
+    padding-left: 0px;
+} 
+}
+
+@media screen and (max-width: 500px) {
+  
+    .body-inicio{ 
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns:  auto;   
+        width:100% ; 
+        background-color: rgb(156, 150, 150);
+       }    
+
+     .header-inicio{
+            grid-column: 1/4;
+        }
+     .article-inicio{
+             grid-column: 1/4;
+        }
+     .footer-inicio{
+            grid-column: 1/4;
+        }
+    .header-inicio{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+      ul{
+          position: fixed;
+          width: 100%;
+          height: 100%;
+          background: rgb(227, 65, 84);
+          opacity: 85%;
+          left: -110%;
+          top: 8%;
+          text-align: center;
+          transition: all .5s;
+
+    }
+        nav ul li {
+            display: block;
+            margin: 50px 0;
+            line-height: 60px;
+            
+    }
+        nav ul li a{
+            font-size: 40px;
+            
+            
+    }
+        li a:hover, li a.letranegra{
+            background: none;
+            color: black;
+            text-decoration: none;
+            display: flex;
+            
+        }
+          #check{
+              display: none;
+          }
+        #check:checked ~ ul{
+            left: 0;
+        }
+          
+       .checkbtn, a:hover{
+              display: block;
+              font-size: 30px;
+              background-color:black;
+              border-radius: 10px;
+              color: rgb(156, 150, 150);
+              float: right;
+              cursor: pointer; 
+          }
+
+    /* Estilos sobre Miss Noe*/
+       
+       .sobre-menu{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+       }
+       .nav-sobre{
+           padding-top: 25px;
+       }
+
+    a{
+        text-decoration: none;
+        font-family:  sans-serif;
+        font-size: 40px;
+        background-color: rgb(227, 65, 84);
+        color: black;
+        }
+
+
+
+       .body-sobre{
+              background-color: rgb(156, 150, 150);
+              }
+          ul{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: rgb(227, 65, 84);
+            opacity: 85%;
+            left: -110%;
+            top: 8%;
+            text-align: center;
+            transition: all .5s;
+  
+      }
+          nav ul li {
+              display: block;
+              margin: 50px 0;
+              line-height: 60px;
+              
+      }
+          nav ul li a{
+              font-size: 40px;
+              
+              
+      }
+          li a:hover, li a.letranegra{
+              background: none;
+              color: black;
+              text-decoration: none;
+              display: flex;
+              
+          }
+            #check{
+                display: none;
+            }
+          #check:checked ~ ul{
+              left: 0;
+          }
+            
+         .checkbtn, a:hover{
+                display: block;
+                font-size: 30px;
+                background-color:black;
+                border-radius: 10px;
+                color: rgb(156, 150, 150);
+                float: right;
+                cursor: pointer; 
+            }
+  /*Estilo Cursos Regulares*/
+    
+.h1-cursos-reg{
+    font-size: 2rem;
+}  
+.header-cursos-reg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main-cursos-reg{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 100px 100px;
+    row-gap: 5px;
+    column-gap: 5px;
+    font-size: 1rem;
+}
+.nav-cursos-reg{
+    padding-left:55px;
+}
+.cuadrado1{
+    display: flex;
+    justify-content: center;
+    width: 75px;
+
+
+}
+
+.cuadrado2{
+    width: 75px;
+    grid-row:2/3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 5px;
+
+}
+.Juniors{
+    margin-left: 15px;
+    background-image: linear-gradient(rgb(206, 143, 143)) rgb(150, 84, 84);
+    border: 3px rgb(227, 65, 84) solid;
+    
+}
+.Adolescents{
+    padding-right: 5px;
+     border: 3px rgb(227, 65, 84) solid;
+
+}
+.Adultos{
+    border: 3px rgb(227, 65, 84) solid;
+}
+.kids{
+    border: 3px rgb(227, 65, 84) solid;
+}
+
+
+
+
+.curs-reg-missnoe{
+    width: 150px;
+}
+
+
+a{
+ text-decoration: none;
+ font-family:  sans-serif;
+ font-size: 40px;
+ background-color: rgb(227, 65, 84);
+ color: black;
+ }
+
+
+
+.body-cursos-reg{
+       background-color: rgb(156, 150, 150);
+       }
+
+      
+
+
+
+
+   ul{
+     position: fixed;
+     width: 100%;
+     height: 100%;
+     background: rgb(227, 65, 84);
+     opacity: 85%;
+     left: -110%;
+     top: 8%;
+     text-align: center;
+     transition: all .5s;
+
+}
+   nav ul li {
+       display: block;
+       margin: 50px 0;
+       line-height: 60px;
+       
+}
+   nav ul li a{
+       font-size: 40px;
+       
+       
+}
+   li a:hover, li a.letranegra{
+       background: none;
+       color: black;
+       text-decoration: none;
+       display: flex;
+       
+   }
+     #check{
+         display: none;
+     }
+   #check:checked ~ ul{
+       left: 0;
+   }
+     
+  .checkbtn, a:hover{
+         display: block;
+         font-size: 30px;
+         background-color:black;
+         border-radius: 10px;
+         color: rgb(156, 150, 150);
+         float: right;
+         cursor: pointer;
+         }
+
+          .main-cursos-reg{
+              display: grid;
+              grid-template-columns: auto auto;
+              grid-template-rows: auto auto;
+              margin-left: 100px;
+              grid-column: 1/2;
+              grid-row: 1/2;
+              column-gap: 50px;
+              row-gap: 10px;
+
+
+
+          }
+    /*estilos clases a demanda*/
+    .body-clases{
+    background-color: rgb(156, 150, 150);
+        
+    }
+    
+    .contenedor-clases{
+        display: flex;
+        justify-content: space-around;
+        
+    
+    }
+    
+    .header-clases{
+       display: flex;
+       align-items: center;
+       
+    }
+    .nav-clases{
+        padding-left: 50px;
+    }
+    .main-clases{
+        
+        
+    }
+    .contenedor-clases{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 200px 200px;
+    }
+    .contenedor-vid-clases{
+        grid-row: 1/2;
+        width: 150px;
+        height: 150px;
+        
+    }
+    .videos-clases{
+        
+        padding-left: 100px;
+        display: flex;
+        width: 150px;
+    
+    
+        
+    }
+
+   .clases-demand-logo{
+            border: 5px rgb(227, 65, 84)solid;
+            border-radius: 20%;
+            width: 150px;
+            grid-row: 2/3;
+            
+        }
+
+        a{
+            text-decoration: none;
+            font-family:  sans-serif;
+            font-size: 40px;
+            background-color: rgb(227, 65, 84);
+            color: black;
+            }
+    
+        
+   ul{
+     position: fixed;
+     width: 100%;
+     height: 100%;
+     background: rgb(227, 65, 84);
+     opacity: 85%;
+     left: -110%;
+     top: 8%;
+     text-align: center;
+     transition: all .5s;
+
+}
+.cla-dem{
+    display: flex;
+}
+   nav ul li {
+       display: block;
+       margin: 50px 0;
+       line-height: 60px;
+       
+}
+   nav ul li a{
+       font-size: 40px;
+       
+       
+}
+   li a:hover, li a.letranegra{
+       background: none;
+       color: black;
+       text-decoration: none;
+       display: flex;
+       
+   }
+     #check{
+         display: none;
+     }
+   #check:checked ~ ul{
+       left: 0;
+   }
+     
+  .checkbtn, a:hover{
+         display: block;
+         font-size: 30px;
+         background-color:black;
+         border-radius: 10px;
+         color: rgb(156, 150, 150);
+         float: right;
+         cursor: pointer;
+         }
+
+
+
+}
